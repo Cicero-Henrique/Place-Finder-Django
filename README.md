@@ -1,11 +1,16 @@
-# Django-Geo
+# Place Finder
 
-This project allows you to find places in any city around the world. To do that it uses a Yelp Api.
+This project allows you to find places in any city around the world using Yelp Api.
 
-Requirements
+# Usage
 
-You will need your own Yelp Api and another secret key
+```
+    pip install - r requirements.txt
+    python manage.py runserver
+```
 
-Installation
+# Requirements
 
-pip install -r requirements.txt
+* [Yelp Keys](https://www.yelp.com/developers/v3/manage_app)
+* [Python 3.7+](https://www.python.org/downloads/)
+* [Python pip](https://pip.pypa.io/en/stable/installing/)
