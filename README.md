@@ -12,8 +12,18 @@ The first line must contain your Client ID of YELP and the second line your API 
     python manage.py runserver
 ```
 
+# Docker
+
+In the root folder, you can run:
+
+```
+    docker build -t "Your image name" .
+    docker run -p 8000:8000 "Your image name"
+```
+
 # Requirements
 
 * [Yelp Keys](https://www.yelp.com/developers/v3/manage_app)
 * [Python 3.7+](https://www.python.org/downloads/)
 * [Python pip](https://pip.pypa.io/en/stable/installing/)
+* [Docker](https://www.docker.com/products/docker-desktop)
