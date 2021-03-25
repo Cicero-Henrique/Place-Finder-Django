@@ -21,6 +21,12 @@ In the root folder, you can run:
     docker run -p 8000:8000 "Your image name"
 ```
 
+Or using Docker Compose:
+```
+    docker-compose -f "docker-compose.yaml"  build
+    docker-compose up
+```
+
 # Requirements
 
 * [Yelp Keys](https://www.yelp.com/developers/v3/manage_app)
